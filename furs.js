@@ -1,7 +1,7 @@
 module.exports.roxanne = () => {
 
     var roll = Math.random();
-    roll *= 22;
+    roll *= 37;
     roll = Math.floor(roll);
 
     return './roxanne/' + roll + '.webp';
@@ -25,5 +25,15 @@ module.exports.sudloo = () => {
     roll = Math.floor(roll);
 
     return './sudloo/' + roll + '.webp';
+
+}
+
+module.exports.xena = () => {
+
+    var roll = Math.random();
+    roll *= 9;
+    roll = Math.floor(roll);
+
+    return './xena/' + roll + '.webp';
 
 }

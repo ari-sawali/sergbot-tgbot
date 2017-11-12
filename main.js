@@ -124,6 +124,10 @@ bot.on('message', msg => {
     bot.sendSticker(msg.chat.id, furs.sudloo());
   }
 
+  else if(msg.text.startsWith('/xena')) {
+    bot.sendSticker(msg.chat.id, furs.xena());
+  }
+
   else if (msg.text.startsWith('/owo')) {
     bot.sendMessage(msg.chat.id, 'what\'s this????');
   }
